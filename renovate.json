@@ -16,6 +16,7 @@
     },
     {
       "groupName": "dependencies (non-major)",
+      "excludePackagePatterns": ["^@prisma/"],
       "depTypeList": ["dependencies"],
       "updateTypes": ["patch", "minor"],
       "labels": ["type/deps"],
@@ -23,6 +24,7 @@
     },
     {
       "groupName": "devDependencies (major)",
+      "excludePackagePatterns": ["^@prisma/"],
       "depTypeList": ["devDependencies"],
       "updateTypes": ["major"],
       "labels": ["type/chore"],
@@ -31,6 +33,7 @@
     },
     {
       "groupName": "devDependencies (non-major)",
+      "excludePackagePatterns": ["^@prisma/"],
       "depTypeList": ["devDependencies"],
       "updateTypes": ["patch", "minor"],
       "labels": ["type/chore"],
@@ -39,6 +42,7 @@
     },
     {
       "groupName": "devDependencies (non-major)",
+      "excludePackagePatterns": ["^@prisma/"],
       "schedule": ["before 8:00am on monday"],
       "automerge": "true",
       "depTypeList": ["devDependencies"],
