@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@prisma/client@^2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.9.0.tgz#acfaca0c5695d7f439e5af54b7cd0f7fb5926340"
-  integrity sha512-VLXw6s13xakIrV9Z8Ftw0j+mbXuvbRkxYv3X5hRZdPN1NAwgeXJmrrTK9MS2HDvW8eGZL7P8OaUSNQ3Sfgvr/Q==
+"@prisma/client@^2.10.0-dev":
+  version "2.10.0-integration-query-engine-native-types.1"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.10.0-integration-query-engine-native-types.1.tgz#db3c1641cf61c361e3789056e10ffdc97eda9d3a"
+  integrity sha512-TCYQuyaNf6yBk8gcfNC7TbNjlevPpnZ8jlExWRluVWHE5RhGVzZsxRCj0Yjau0UNbBmwDKr6pd7IdBjCOfd8EA==
   dependencies:
     pkg-up "^3.1.0"
 
