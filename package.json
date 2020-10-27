@@ -10,6 +10,6 @@
     "@prisma/get-platform": "2.7.0"
   },
   "devDependencies": {
-    "@prisma/client": "^2.9.0"
+    "@prisma/client": "2.8.0"
   }
 }
