@@ -13,6 +13,39 @@
       "packagePatterns": ["^@prisma/"],
       "depTypeList": ["devDependencies"],
       "commitMessagePrefix": "test"
+    },
+    {
+      "groupName": "dependencies (non-major)",
+      "depTypeList": ["dependencies"],
+      "updateTypes": ["patch", "minor"],
+      "labels": ["type/deps"],
+      "semanticCommitType": "deps"
+    },
+    {
+      "groupName": "devDependencies (major)",
+      "depTypeList": ["devDependencies"],
+      "updateTypes": ["major"],
+      "labels": ["type/chore"],
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "deps"
+    },
+    {
+      "groupName": "devDependencies (non-major)",
+      "depTypeList": ["devDependencies"],
+      "updateTypes": ["patch", "minor"],
+      "labels": ["type/chore"],
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "deps"
+    },
+    {
+      "groupName": "devDependencies (non-major)",
+      "schedule": ["before 8:00am on monday"],
+      "automerge": "true",
+      "depTypeList": ["devDependencies"],
+      "updateTypes": ["patch", "minor"],
+      "labels": ["type/chore"],
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "deps"
     }
   ]
 }
