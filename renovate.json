@@ -4,14 +4,13 @@
     {
       "groupName": "Prisma",
       "packagePatterns": ["^@prisma/"],
-      "depTypeList": ["dependencies", "devDependencies", "peerDependencies"],
+      "followTag": "latest",
       "commitMessagePrefix": "feat"
     },
     {
       "groupName": "Prisma Dev",
       "followTag": "dev",
       "packagePatterns": ["^@prisma/"],
-      "depTypeList": ["devDependencies"],
       "commitMessagePrefix": "test"
     },
     {
