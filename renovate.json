@@ -3,6 +3,11 @@
   "extends": ["github>prisma-labs/renovate-config"],
   "packageRules": [
     {
+      "groupName": "Prisma",
+      "packagePatterns": ["^@prisma/"],
+      "commitMessagePrefix": "feat"
+    },
+    {
       "groupName": "Prisma Dev",
       "followTag": "dev",
       "packagePatterns": ["^@prisma/"],
