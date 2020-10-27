@@ -7,6 +7,6 @@
   "license": "MIT",
   "dependencies": {
     "@prisma/debug": "^2.9.0",
-    "@prisma/get-platform": "^2.9.0"
+    "@prisma/get-platform": "^2.10.0-dev"
   }
 }
