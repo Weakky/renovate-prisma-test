@@ -5,6 +5,10 @@
   "repository": "https://github.com/Weakky/renovate-prisma-test.git",
   "author": "Flavian DESVERNE <flavian.desverne@epitech.eu>",
   "license": "MIT",
+  "peerDependencies": {
+    "@prisma/debug": "2.7.0",
+    "@prisma/get-platform": "2.7.0"
+  },
   "dependencies": {
     "@prisma/debug": "2.7.0",
     "@prisma/get-platform": "2.7.0",

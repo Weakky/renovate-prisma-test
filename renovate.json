@@ -4,7 +4,7 @@
     {
       "groupName": "Prisma",
       "packagePatterns": ["^@prisma/"],
-      "depTypeList": ["dependencies", "devDependencies"],
+      "depTypeList": ["dependencies", "devDependencies", "peerDependencies"],
       "commitMessagePrefix": "feat"
     },
     {
