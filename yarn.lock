@@ -2,19 +2,26 @@
 # yarn lockfile v1
 
 
-"@prisma/debug@2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.8.0.tgz#3a3cc367dd44e6696f786250d22adb9364b0e86c"
-  integrity sha512-mtHQMDQ2HBLY4Frz3S53O3KnX9ND+ow9KR/8tgiqGObVH6zmP25lNK0MQJcPe3KOQL8FO+PgYOccoWx31+1rvQ==
+"@prisma/client@^2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.9.0.tgz#acfaca0c5695d7f439e5af54b7cd0f7fb5926340"
+  integrity sha512-VLXw6s13xakIrV9Z8Ftw0j+mbXuvbRkxYv3X5hRZdPN1NAwgeXJmrrTK9MS2HDvW8eGZL7P8OaUSNQ3Sfgvr/Q==
+  dependencies:
+    pkg-up "^3.1.0"
+
+"@prisma/debug@2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.7.0.tgz#22230d5959f42935221d7fdbe8ccbe3e0e7fde7e"
+  integrity sha512-5nRDWpCPRnm/IAHa557jqaXACSOj8i1WBz/6bVvg2iDaAyQJSjQLPF1gFx5J4oeVDgwFzMU7DcKiILGQz/LWIg==
   dependencies:
     debug "^4.1.1"
 
-"@prisma/get-platform@2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@prisma/get-platform/-/get-platform-2.8.0.tgz#af24dbb1de8a3609025542e554b3dc8d11ded0ae"
-  integrity sha512-ygRsEFTrO6zNKp3kH7LVcmKu1Q4RQStgxOAxcHoVBWpSFFYY93DLS0gZvPwXuH5Oi5HHCOO5ZMfOflfZIR2/Cw==
+"@prisma/get-platform@2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@prisma/get-platform/-/get-platform-2.7.0.tgz#047e5ecda30799103860199b2895fabb53c41f2a"
+  integrity sha512-2ZDUz9npj8X759Pz1K1TWG0EXPpjjlw9TLvYfX+lu8DS84bxd593YPUpFG5jFN6bfMRxF5V9S+kE1+prg5KkRA==
   dependencies:
-    "@prisma/debug" "2.8.0"
+    "@prisma/debug" "2.7.0"
 
 debug@^4.1.1:
   version "4.2.0"
@@ -23,7 +30,53 @@ debug@^4.1.1:
   dependencies:
     ms "2.1.2"
 
+find-up@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/find-up/-/find-up-3.0.0.tgz#49169f1d7993430646da61ecc5ae355c21c97b73"
+  integrity sha512-1yD6RmLI1XBfxugvORwlck6f75tYL+iR0jqwsOrOxMZyGYqUuDhJ0l4AXdO1iX/FTs9cBAMEk1gWSEx1kSbylg==
+  dependencies:
+    locate-path "^3.0.0"
+
+locate-path@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-3.0.0.tgz#dbec3b3ab759758071b58fe59fc41871af21400e"
+  integrity sha512-7AO748wWnIhNqAuaty2ZWHkQHRSNfPVIsPIfwEOWO22AmaoVrWavlOcMR5nzTLNYvp36X220/maaRsrec1G65A==
+  dependencies:
+    p-locate "^3.0.0"
+    path-exists "^3.0.0"
+
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+
+p-limit@^2.0.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
+  integrity sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==
+  dependencies:
+    p-try "^2.0.0"
+
+p-locate@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/p-locate/-/p-locate-3.0.0.tgz#322d69a05c0264b25997d9f40cd8a891ab0064a4"
+  integrity sha512-x+12w/To+4GFfgJhBEpiDcLozRJGegY+Ei7/z0tSLkMmxGZNybVMSfWj9aJn8Z5Fc7dBUNJOOVgPv2H7IwulSQ==
+  dependencies:
+    p-limit "^2.0.0"
+
+p-try@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
+  integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
+
+path-exists@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
+  integrity sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=
+
+pkg-up@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/pkg-up/-/pkg-up-3.1.0.tgz#100ec235cc150e4fd42519412596a28512a0def5"
+  integrity sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==
+  dependencies:
+    find-up "^3.0.0"
