@@ -6,12 +6,12 @@
   "author": "Flavian DESVERNE <flavian.desverne@epitech.eu>",
   "license": "MIT",
   "peerDependencies": {
-    "@prisma/debug": "2.7.0",
-    "@prisma/get-platform": "2.7.0"
+    "@prisma/debug": "2.9.0",
+    "@prisma/get-platform": "2.9.0"
   },
   "dependencies": {
-    "@prisma/debug": "2.7.0",
-    "@prisma/get-platform": "2.7.0",
+    "@prisma/debug": "2.9.0",
+    "@prisma/get-platform": "2.9.0",
     "date-fns": "2.15.0",
     "lodash": "4.17.10"
   },
