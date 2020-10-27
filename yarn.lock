@@ -2,10 +2,17 @@
 # yarn lockfile v1
 
 
-"@prisma/debug@2.9.0", "@prisma/debug@^2.9.0":
+"@prisma/debug@2.9.0":
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.9.0.tgz#6b2d176f3ae587499bea5eef0e304181d7561775"
   integrity sha512-Z76oG/vKC8ohdcBSwLt0eu09h+AAEam0lj0JGD9Ijx6NfsdKj+gTZ8CH+IR7+f4aWB38QRzkJRs33jzQDT41Jw==
+  dependencies:
+    debug "^4.1.1"
+
+"@prisma/debug@^2.10.0-dev":
+  version "2.10.0-integration-query-engine-native-types.1"
+  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.10.0-integration-query-engine-native-types.1.tgz#18a979107860f8c1d71f99bf6fe02f2b1ebbc986"
+  integrity sha512-J0gXrRcFtUCSKTWa1Skdjv+DJnj8TAEemz2taKxAAA/N+LtFs9Fg8XZh8LxxOBGiVA/FBejtibtBDz8Wt51UNA==
   dependencies:
     debug "^4.1.1"
 
