@@ -6,8 +6,8 @@
   "author": "Flavian DESVERNE <flavian.desverne@epitech.eu>",
   "license": "MIT",
   "dependencies": {
-    "@prisma/debug": "2.7.0",
-    "@prisma/get-platform": "2.7.0"
+    "@prisma/debug": "2.9.0",
+    "@prisma/get-platform": "2.9.0"
   },
   "devDependencies": {
     "@prisma/cli": "2.8.0",
