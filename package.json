@@ -1,0 +1,12 @@
+{
+  "name": "renovate-prisma-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Weakky/renovate-prisma-test.git",
+  "author": "Flavian DESVERNE <flavian.desverne@epitech.eu>",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/debug": "^2.9.0",
+    "@prisma/get-platform": "^2.9.0"
+  }
+}
